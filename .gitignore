@@ -1,0 +1,20 @@
+# TruthSeal — auto-maintained: do not commit keys or OTS proofs
+*.pem
+*.key
+*.ots
+# Python
+__pycache__/
+.venv/
+
+# TruthSeal Secrets (DO NOT PUBLISH THESE)
+*.pem
+*.key
+registry.json
+watchdog_log.txt
+
+# OpenTimestamps Proofs
+*.ots
+
+# Test Data
+*.sealed.*
+*.print.*
